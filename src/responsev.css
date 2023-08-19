@@ -1,0 +1,50 @@
+@media only screen and (max-width: 500px) {
+    .content
+    {
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+        overflow: hidden;
+    }
+    .detailessun
+    {
+        width: 40%;
+        margin: 12px 0px;
+    
+    }
+    .all-datailessun
+    {
+        flex-wrap: wrap;
+    }
+    .detailessun p
+    {
+        font-size: 20px;
+    }
+    .foracset
+    {
+        font-size: 20px;
+    }
+    .slider-hourly
+    {
+        width: 850px;
+        transform: translateX(-150px);
+        transition: all 0.5s;
+        animation-name: slider;
+        animation-duration: 7s;
+        animation-iteration-count: infinite;
+    }
+    .allcard
+        {
+           justify-content: center;
+        }
+    @keyframes slider {
+        30%   { transform: translateX(-160px);}
+        60%  { transform: translateX(-330px);}
+        90% { transform: translateX(-500px);}
+        100% { transform: translateX(0px);}
+      }
+  }
+
+
+
+
